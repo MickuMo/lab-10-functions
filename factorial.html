@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Factorial</title>
+	<script>
+
+		function factorial(n){
+
+			// parse the String into an Interger
+			var num = parseInt(n, 10);
+			// variable result to hold the final
+			var result = 1;
+			// for loop to count the factorial
+			for(i = num; i > 0; i--){
+				result = result * i;
+
+			// n = n*(n-1)*(n-2)*(n-3);
+			}
+			return result;
+		}
+
+		var input = prompt("Number please: ");
+		console.log(factorial(input));
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
